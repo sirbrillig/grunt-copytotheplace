@@ -40,7 +40,7 @@ module.exports = function(grunt) {
     },
 
     simplemocha: {
-      src: ['test/copytotheplace_test.js']
+      src: ['test/copytotheplace-test.js']
     }
   });
 
