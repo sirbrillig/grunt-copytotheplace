@@ -1,0 +1,41 @@
+{
+  "name": "grunt-copytotheplace",
+  "description": "Grunt module for a utility to copy files to a configurable and variable place.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/sirbrillig/grunt-copytotheplace",
+  "author": {
+    "name": "Payton Swick",
+    "email": "payton@foolord.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sirbrillig/grunt-copytotheplace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sirbrillig/grunt-copytotheplace/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/sirbrillig/grunt-copytotheplace/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "copytotheplace": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
